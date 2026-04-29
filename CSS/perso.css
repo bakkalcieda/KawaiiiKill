@@ -1,0 +1,72 @@
+#perso-container {
+    position: fixed;
+    bottom: 0;
+    left: 40px;
+    width: 200px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#perso-img {
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+    cursor: pointer;
+    filter: drop-shadow(0 0 12px rgba(255, 100, 200, 0.6));
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover */
+#perso-img:hover {
+    transform: scale(1.08) translateY(-8px);
+    filter: drop-shadow(0 0 20px rgba(255, 80, 200, 0.9)) brightness(1.1);
+}
+
+/* Click */
+#perso-img:active {
+    transform: scale(0.95);
+}
+
+/* Badge LVL */
+#perso-niveau-badge {
+    background: linear-gradient(135deg, #ff4dbb, #a020f0);
+    color: white;
+    font-size: 10px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-top: -10px;
+    box-shadow: 0 0 10px rgba(255, 80, 200, 0.7);
+}
+
+/* Bulle dialogue */
+#perso-bubble {
+    position: absolute;
+    bottom: 220px;
+    left: 180px;
+    background: white;
+    border: 2px solid #ff4dbb;
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-size: 13px;
+    color: #333;
+    white-space: nowrap;
+    box-shadow: 0 4px 15px rgba(255, 80, 200, 0.4);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 200;
+}
+
+#perso-bubble.visible {
+    opacity: 1;
+}
+
+/* Glow par niveau */
+.glow-1 { filter: drop-shadow(0 0 10px rgba(255, 182, 193, 0.8)); }
+.glow-2 { filter: drop-shadow(0 0 12px rgba(255, 100, 200, 0.8)); }
+.glow-3 { filter: drop-shadow(0 0 15px rgba(180, 0, 255, 0.8)); }
+.glow-4 { filter: drop-shadow(0 0 18px rgba(255, 0, 100, 0.9)); }
+.glow-5 { filter: drop-shadow(0 0 25px rgba(255, 0, 0, 1)); }

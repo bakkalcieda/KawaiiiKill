@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* ------------------------------------ */
+/* ------------------ LEVEL 1 BODY -------------------------------------*/
+/* --------------------------------------------------------------- */
+body.level-1 {
+    background: linear-gradient(135deg, #ffd6e7, #ffb3d1);
+    color: #5a0030;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+body.level-1 h1, 
+body.level-1 h2 {
+    font-family: 'Creepster', cursive;
+    color: #c2185b;
+    text-shadow: 2px 2px 4px rgba(194, 24, 91, 0.3);
+}
+
+body.level-1 .card {
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid #f48fb1;
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+}
+
+body.level-1 button {
+    background: #f48fb1;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+body.level-1 button:hover {
+    background: #c2185b;
+    transform: scale(1.05);
+}
+
+/* ------------------------------------------------------------------------- */
+/* ------------------- LEVEL 2 - violett sombnre------------------------ */
+/* -------------------------------------------------------------------------- */
+body.level-2 {
+    background: linear-gradient(135deg, #2d1b4e, #1a0a2e);
+    color: #e0b3ff;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+body.level-2 h1,
+body.level-2 h2 {
+    font-family: 'Creepster', cursive;
+    color: #ce93d8;
+    text-shadow: 0 0 10px rgba(206, 147, 216, 0.7);
+}
+
+body.level-2 .card {
+    background: rgba(45, 27, 78, 0.8);
+    border: 2px solid #7b1fa2;
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+}
+
+body.level-2 button {
+    background: #7b1fa2;
+    color: #e0b3ff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+body.level-2 button:hover {
+    background: #ce93d8;
+    color: #2d1b4e;
+    transform: scale(1.05);
+}
+
+/* ------------------------------------------------------------------------- */
+/* ------------------- LEVEL 3 - neonnnn glitch  ------------------------ */
+/* -------------------------------------------------------------------------- */
+body.level-3 {
+    background: linear-gradient(135deg, #0a0a0a, #1a0033);
+    color: #00ffcc;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+body.level-3 h1,
+body.level-3 h2 {
+    font-family: 'Creepster', cursive;
+    color: #ff00ff;
+    text-shadow: 
+    0 0 10px #ff00ff,
+    0 0 20px #ff00ff,
+    0 0 40px #ff00ff;
+}
+
+body.level-3 .card {
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #00ffcc;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
+}
+
+body.level-3 button {
+    background: transparent;
+    color: #00ffcc;
+    border: 2px solid #00ffcc;
+    border-radius: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+body.level-3 button:hover {
+    background: #00ffcc;
+    color: #0a0a0a;
+    box-shadow: 0 0 20px #00ffcc;
+    transform: scale(1.05);
+}
+
+/* ------------------------------------------------------------------------- */
+/* ------------------- LEVEL 4 -  rouge sang gore------------------------ */
+/* -------------------------------------------------------------------------- */
+body.level-4 {
+    background: linear-gradient(135deg, #1a0000, #3d0000);
+    color: #ff6b6b;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+body.level-4 h1,
+body.level-4 h2 {
+    font-family: 'Creepster', cursive;
+    color: #ff1744;
+    text-shadow: 
+    0 0 10px rgba(255, 23, 68, 0.8),
+    2px 2px 4px #000;
+}
+
+body.level-4 .card {
+    background: rgba(61, 0, 0, 0.8);
+    border: 2px solid #ff1744;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(255, 23, 68, 0.2);
+}
+
+body.level-4 button {
+    background: #b71c1c;
+    color: #ffcdd2;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+body.level-4 button:hover {
+    background: #ff1744;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 23, 68, 0.6);
+}
+
+/* ------------------------------------------------------------------------- */
+/* ------------------- LEVEL 5 -  noir et or ------------------------ */
+/* -------------------------------------------------------------------------- */
+body.level-5 {
+    background: linear-gradient(135deg, #000000, #0d0d0d);
+    color: #ffd700;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+body.level-5 h1,
+body.level-5 h2 {
+    font-family: 'Creepster', cursive;
+    color: #ffd700;
+    text-shadow: 
+    0 0 10px rgba(255, 215, 0, 0.8),
+    0 0 20px rgba(255, 215, 0, 0.5);
+}
+
+body.level-5 .card {
+    background: rgba(13, 13, 13, 0.9);
+    border: 2px solid #ffd700;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.2);
+}
+
+body.level-5 button {
+    background: linear-gradient(135deg, #ffd700, #ffaa00);
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+body.level-5 button:hover {
+    background: linear-gradient(135deg, #ffaa00, #ffd700);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+/* GENERAL */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Barre de vie et XPP */
+.stats-bar {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.stat {
+    flex: 1;
+    min-width: 150px;
+}
+
+.stat label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 15px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+/* couleur barre de vie - utilisation de l'ia pour me faciliter la tache  */
+body.level-1 .progress-fill.vie { background: #f48fb1; }
+body.level-2 .progress-fill.vie { background: #ce93d8; }
+body.level-3 .progress-fill.vie { background: #00ffcc; }
+body.level-4 .progress-fill.vie { background: #ff1744; }
+body.level-5 .progress-fill.vie { background: #ffd700; }
+
+/* couleur barre XP - utilisation de l'ia pour me faciliter la tache */
+body.level-1 .progress-fill.xp { background: #c2185b; }
+body.level-2 .progress-fill.xp { background: #7b1fa2; }
+body.level-3 .progress-fill.xp { background: #ff00ff; }
+body.level-4 .progress-fill.xp { background: #ff6b6b; }
+body.level-5 .progress-fill.xp { background: #ffaa00; }
+
+/*  SECTIONNS */
+section {
+    margin: 20px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+/*  messagess */
+.message {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/*  Ecran titre */
+#titre-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    gap: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+#titre-logo {
+    font-family: 'Creepster', cursive;
+    font-size: 5rem;
+    color: #c2185b;
+    text-shadow: 3px 3px 6px rgba(194, 24, 91, 0.4);
+}
+
+#titre-sous {
+    font-size: 1.2rem;
+    color: #5a0030;
+    opacity: 0.8;
+}
+
+#start-btn {
+    font-size: 1.3rem;
+    padding: 15px 40px;
+    margin-top: 20px;
+}
+#perso-container.hidden {
+    display: none !important;
+}
+
+/*  HUD  */
+#hud {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    border-bottom: 2px solid rgba(194, 24, 91, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#vies {
+    display: flex;
+    gap: 5px;
+    font-size: 1.4rem;
+}
+
+#niveau-badge {
+    font-family: 'Creepster', cursive;
+    font-size: 1.1rem;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background: rgba(194, 24, 91, 0.2);
+    border: 2px solid #c2185b;
+}
+
+#xp-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    max-width: 250px;
+}
+
+#xp-fill-bar {
+    flex: 1;
+    height: 12px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#xp-fill {
+    height: 100%;
+    width: 0%;
+    background: #c2185b;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+#xp-texte {
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
+
+#score-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/*  GAME CONTAINER */
+#game-container {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/*  quizzzzzzzzzzz */
+#quiz-zone {
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid #f48fb1;
+    border-radius: 20px;
+    padding: 25px;
+    backdrop-filter: blur(5px);
+}
+
+#numero-question {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+#question {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#reponses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+#reponses button {
+    padding: 12px;
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+#timer-bar {
+    width: 100%;
+    height: 8px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+#timer-fill {
+    height: 100%;
+    width: 100%;
+    background: #c2185b;
+    border-radius: 10px;
+    transition: width 0.1s linear;
+}
+
+#feedback {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#feedback.correct {
+    background: rgba(0, 200, 100, 0.2);
+    border: 2px solid #00c864;
+    color: #00c864;
+}
+
+#feedback.incorrect {
+    background: rgba(255, 0, 50, 0.2);
+    border: 2px solid #ff0032;
+    color: #ff0032;
+}
+
+/*  GAME OVEEER */
+#gameover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#gameover-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#gameover-titre {
+    font-size: 4rem;
+}
+
+/*  victoiiiiiiiiiiiiiiiire */
+
+#victoire-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#victoire-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#victoire-img {
+    width: 200px;
+    border-radius: 20px;
+    border: 3px solid currentColor;
+}
+
+/*  EVOLUTIONNN */
+#evolution-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#evolution-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+#evolution-avant,
+#evolution-apres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+#evolution-avant img,
+#evolution-apres img {
+    width: 150px;
+    border-radius: 15px;
+}
+
+#evolution-images {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

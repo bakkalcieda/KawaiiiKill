@@ -16,7 +16,8 @@
   <script defer src="JavaScript/game.js"></script>
   
 </head>
-<body>  
+<body class="level-1">  
+  
   <!--  ----------------------- Ecran titre ------------------ -->
   <div id="titre-screen">
     <h1 id="titre-logo">🐰 KawaiiKill</h1>
@@ -118,15 +119,18 @@
   <div id="evolution-screen" class="hidden">
     <div id="evolution-content">
       <h2 id="evolution-titre">✨ ÉVOLUTION ✨</h2>
-      <div id="evolution-avant">
-        <img id="evo-img-avant" src="" alt="avant">
-        <p id="evo-label-avant">Avant</p>
+      <div id="evolution-images">
+        <div id="evolution-avant">
+          <img id="evo-img-avant" src="" alt="avant">
+          <p id="evo-label-avant">Avant</p>
+        </div>
+        <div id="evolution-fleche">➡️</div>
+        <div id="evolution-apres">
+          <img id="evo-img-apres" src="" alt="après">
+          <p id="evo-label-apres">Après</p>
+        </div>
       </div>
-      <div id="evolution-fleche">➡️</div>
-      <div id="evolution-apres">
-        <img id="evo-img-apres" src="" alt="après">
-        <p id="evo-label-apres">Après</p>
-      </div>
+
       <p id="evo-description"></p>
       <button id="evo-continue-btn">Continuer ▶</button>
     </div>
