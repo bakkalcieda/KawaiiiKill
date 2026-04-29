@@ -1,0 +1,101 @@
+----------------------- concept du jeux KAWAIIIIKILLLL ----------------------------------
+Quiz de code 
+↓
+Bonne réponse → collecte des cœurs + XP
+↓
+Mauvaise réponse → perd de la vie → GORE 💀
+↓
+Assez de XP → ÉVOLUTION du perso
+↓
+Boss fight → défi de code plus dur
+↓
+0 vie → Game Over GORE 
+<!--  vie =>3 coeurs  -->
+<!-- XP => gagnée par bonne réponses  -->
+<!--  Evolution => 4 forme selon XP -->
+<!-- Game over => animation goooore -->
+<!--  BOSS => défi spécial par niveau  -->
+
+---------------------------------------------------------------------------------- 
+ETAPE 1 = > Structuration des fichiers!!
+
+index.html = la base
+CSS   = style.css
+perso.css
+animations.css
+gore.css
+JavaScript = Game.js
+Perso.js
+quiz.js
+combat.js
+evolution.js
+images / 
+sounds/
+----------------------------------------------------------------------------------------
+ETAPE 2 => DESIGN 
+
+Écran titre kawaii
+HUD (vies, XP, niveau)
+Background animé
+Fonts kawaii + gore
+Palette de couleurs
+---------------------------------------------------------------------------------------------
+ETAPE 3 - PERSONNAGE CSS 
+
+Corps en CSS pur
+Oreilles de lapin
+Style Lolita dentelle
+Touche E-girl
+4 formes d'évolution
+Animations idle/victoire/mort
+---------------------------------------------------------------------------------------------
+ETAPE 4 - Système de Vies & XP
+
+3 cœurs kawaiiiiiiiiii
+Barre XP animée
+Perdre une vie → animation
+0 vie → game over
+---------------------------------------------------------------------------------------------
+ÉTAPE 5 - Système de Quiz
+
+Base de questions
+Affichage questions
+Timer
+Bonne/mauvaise réponse
+Feedback visuel
+---------------------------------------------------------------------------------------------
+ÉTAPE 6 - Système d'Évolution
+
+Seuils XP définis
+Transition entre formes
+Animation d'évolution
+Stats qui changent
+---------------------------------------------------------------------------------------------
+ÉTAPE 7 - Game Over GORE
+
+Animation de mort
+Écran game over
+Effets sang/gore kawaii
+Option restart
+---------------------------------------------------------------------------------------------
+ÉTAPE 8 - Boss Fight
+
+Apparition du boss
+Questions plus dures
+Animation boss
+Victoire/défaite
+---------------------------------------------------------------------------------------------
+ÉTAPE 9 - Sons & Musique
+
+Son bonne réponse
+Son mauvaise réponse
+Musique kawaii
+Musique gore
+---------------------------------------------------------------------------------------------
+ÉTAPE 10 - Assemblage Final
+
+Lier tous les fichiers
+Tests complets
+Bug fixes
+Polish final
+---------------------------------------------------------------------------------------------
