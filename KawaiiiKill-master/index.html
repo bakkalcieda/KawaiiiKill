@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/perso.css">
+  <link rel="stylesheet" href="CSS/animation.css">
+  <link rel="stylesheet" href="CSS/gore.css">
+  
+  <script defer src ="JavaScript/perso.js"></script>
+  <script defer src="JavaScript/quiz.js"></script>
+  <script defer src="JavaScript/evolution.js"></script>
+  <script defer src="JavaScript/combat.js"></script>
+  <script defer src="JavaScript/game.js"></script>
+  
+</head>
+<body class="level-1">  
+  
+  <!--  ----------------------- Ecran titre ------------------ -->
+  <div id="titre-screen">
+    <h1 id="titre-logo">🐰 KawaiiKill</h1>
+    <p id="titre-sous">Survive. Evolve. Kill the Bug.</p>
+    <button id="start-btn">▶ START GAME</button>
+  </div>
+  <!-- ----------------- HUD ------------------------- -->
+  <div id="hud" class="hidden">
+    <!-- Vies -->
+    <div id="vies">
+      <span class="coeur" id="coeur-1">❤️</span>
+      <span class="coeur" id="coeur-2">❤️</span>
+      <span class="coeur" id="coeur-3">❤️</span>
+    </div>
+    
+    <!-- Niveau actuel -->
+    <div id="niveau-badge">
+      <span id="niveau-texte">Niveau 1</span>
+    </div>
+    
+    <!-- Barre XP -->
+    <div id="xp-bar">
+      <div id="xp-fill"></div>
+      <span id="xp-texte">0 / 100 XP</span>
+    </div>
+    
+    <!-- Score -->
+    <div id="score-box">
+      <span>⭐</span>
+      <span id="score-texte">0</span>
+    </div>
+    
+  </div>
+  <!-- ----------------------------------------------------- -->
+  <!-- --------------PERSONNAGE---------------- -->
+  <!--  changement de niv perso avec le js -->
+  <div id="perso-container" class="hidden">
+    <img 
+    id="perso-img" 
+    src="images/Level1.jpg" 
+    alt="KawaiiKill Perso"
+    class="perso-level-1"
+    >
+    <div id="perso-niveau-badge">LVL 1</div>
+  </div>
+  <!-- --------------------------------------- -->
+  <!-- ------------ Zone du jeu ------------------- -->
+  <div id="game-container" class="hidden">
+    
+    <!-- QUIZ -->
+    <div id="quiz-zone">
+      <div id="question-box">
+        <p id="numero-question">Question 1 / 5</p>
+        <p id="question"></p>
+      </div>
+      <div id="reponses"></div>
+      <div id="timer-bar">
+        <div id="timer-fill"></div>
+      </div>
+      <div id="feedback" class="hidden"></div>
+    </div>
+    
+    <!-- BOSS (niveau 5) -->
+    <div id="boss-zone" class="hidden">
+      
+      <div id="boss-header">
+        <h2 id="boss-titre">👾 BOSS FINAL — L'IA Codeuse</h2>
+      </div>
+      
+      <!-- Image boss -->
+      <div id="boss-perso">
+        <img id="boss-img" src="images/BOSS.png" alt="Boss IA">
+        <div id="boss-dialogue">
+          <p id="boss-texte">Alors, tu crois pouvoir me battre ? 😈</p>
+        </div>
+      </div>
+      
+      <!-- HP Boss -->
+      <div id="boss-hp-container">
+        <span>❤️ Boss HP</span>
+        <div id="boss-hp-bar">
+          <div id="boss-hp-fill"></div>
+        </div>
+        <span id="boss-hp-texte">100 / 100</span>
+      </div>
+      
+      <!-- Challenge code -->
+      <div id="code-challenge">
+        <p id="code-question"></p>
+        <div id="code-reponses"></div>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+  <!-- ------------------------------------------- -->
+  <!-- ------------ Evolution screen ------------------------------------------ -->
+  <div id="evolution-screen" class="hidden">
+    <div id="evolution-content">
+      <h2 id="evolution-titre">✨ ÉVOLUTION ✨</h2>
+      <div id="evolution-images">
+        <div id="evolution-avant">
+          <img id="evo-img-avant" src="" alt="avant">
+          <p id="evo-label-avant">Avant</p>
+        </div>
+        <div id="evolution-fleche">➡️</div>
+        <div id="evolution-apres">
+          <img id="evo-img-apres" src="" alt="après">
+          <p id="evo-label-apres">Après</p>
+        </div>
+      </div>
+
+      <p id="evo-description"></p>
+      <button id="evo-continue-btn">Continuer ▶</button>
+    </div>
+  </div>
+  <!-- ------------------------------------------------------------------------------------- -->
+  <!-- ------------------ GAME OVEEEEEEEEEEEER---------------------- -->
+  <div id="gameover" class="hidden">
+    <div id="gameover-content">
+      <h1 id="gameover-titre">💀 GAME OVER 💀</h1>
+      <div id="gore-anim"></div>
+      <p id="gameover-score">Score final : 0</p>
+      <p id="gameover-niveau">Niveau atteint : 1</p>
+      <button id="restart-btn">🔄 Recommencer</button>
+    </div>
+  </div>
+  <!-- ---------------------------------------------------------------------------- -->
+  <!-- --------------------------- VICTOIRTE ------------------------------------------------- -->
+  <div id="victoire-screen" class="hidden">
+    <div id="victoire-content">
+      <h1>🏆 VICTOIRE ! 🏆</h1>
+      <img id="victoire-img" src="images/Level5.jpg" alt="Victoire">
+      <p id="victoire-score">Score : 0</p>
+      <p>Tu as battu le Boss IA ! 🎉</p>
+      <button id="victoire-restart-btn">🔄 Rejouer</button>
+    </div>
+  </div>
+  
+</body>
+</html>
